@@ -38,7 +38,7 @@ class Keycloak < Formula
         <array>
           <string>#{opt_libexec}/bin/standalone.sh</string>
           <string>--server-config=standalone.xml</string>
-          <string>-Djboss.socket.binding.port-offset=1</string>
+          <string>-Djboss.socket.binding.port-offset=100</string>
         </array>
         <key>EnvironmentVariables</key>
         <dict>
